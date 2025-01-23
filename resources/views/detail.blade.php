@@ -89,8 +89,8 @@
                         </div>
                     </div>
 
-                    {{-- Disqus Comment --}}
-                    <div class="bg-light rounded p-4">
+                    {{-- Disqus Comment (fill in your disqus if you want to use comments using disqus) --}}
+                    {{-- <div class="bg-light rounded p-4">
                         <div id="disqus_thread"></div>
                         <script>
                             /**
@@ -105,14 +105,14 @@
                             (function() { // DON'T EDIT BELOW THIS LINE
                                 var d = document,
                                     s = d.createElement('script');
-                                s.src = 'https://news-center-1.disqus.com/embed.js';
+                                s.src = 'FILL IT WITH YOUR DISQUS';
                                 s.setAttribute('data-timestamp', +new Date());
                                 (d.head || d.body).appendChild(s);
                             })();
                         </script>
                         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments
                                 powered by Disqus.</a></noscript>
-                    </div>
+                    </div> --}}
 
                 </div>
                 <div class="col-lg-4">

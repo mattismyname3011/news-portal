@@ -83,7 +83,7 @@
                     </button>
                     <div class="collapse navbar-collapse bg-light py-3 justify-content-between" id="navbarCollapse">
                         <div class="scroll-container">
-                            <button class="scroll-button left btn btn-outline-primary" id="scrollLeft">
+                            <button class="scroll-button left btn btn-outline-primary d-none d-xl-block" id="scrollLeft">
                                 <span>&lt;</span>
                             </button>
                             <div class="scroll-content">
@@ -95,7 +95,7 @@
                                     @endforeach
                                 </div>
                             </div>
-                            <button class="scroll-button right btn btn-outline-primary" id="scrollRight">
+                            <button class="scroll-button right btn btn-outline-primary d-none d-xl-block" id="scrollRight">
                                 <span>&gt;</span>
                             </button>
                         </div>

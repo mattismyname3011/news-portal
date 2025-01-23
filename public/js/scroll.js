@@ -25,9 +25,9 @@ function updateVisibleItems() {
     const width = window.innerWidth;
     const items = document.querySelectorAll('.navbar-nav .nav-item');
     
-    if (width <= 576) {
+    if (width <= 1200) {
         items.forEach((item, index) => {
-            item.style.display = index < 50 ? 'block' : 'none';
+            item.style.display = index < 5 ? 'block' : 'none';
         });
     } else {
         items.forEach(item => {

@@ -35,7 +35,7 @@ Follow these steps to install the project on your local machine:
 Clone this repository to your local machine:
 
 ```bash
-https://github.com/sahrulromadi/News-Center.git
+git clone "https://github.com/sahrulromadi/News-Center.git"
 ```
 
 ### 2. Navigate to the Project Directory
